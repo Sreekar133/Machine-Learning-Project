@@ -14,6 +14,8 @@ jobs:
       # Check-out your repository.
       - name: Checkout
         uses: actions/checkout@v3
+        - uses: dtolnay/rust-toolchain@stable    
+        - run: cargo test  ...
 
 
 ### ⬇ IMPORTANT PART ⬇ ###
