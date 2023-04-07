@@ -13,7 +13,13 @@ jobs:
     steps:
       # Check-out your repository.
       - name: Checkout
+<<<<<<< HEAD
         uses:  - uses: actions/checkout@v3
+=======
+        uses: actions/checkout@v3
+        - uses: dtolnay/rust-toolchain@stable    
+        - run: cargo test  ...
+>>>>>>> 813b8c9e7ffc08729cd7e5ddad8d9f17d22bda97
 
 
 ### ⬇ IMPORTANT PART ⬇ ###
