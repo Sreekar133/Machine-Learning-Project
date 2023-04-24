@@ -1,4 +1,5 @@
 Flask
+logging
 gunicorn
 sklearn
 pandas
